@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+body{
+    background-color: rgb(5, 177, 91);
+}
+
+.success{
+    color: green;
+}
+
+.error{
+    color:red;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+}
+
+form{
+    background-color: white;
+    width: 50%;
+    height: 550px;
+    margin: 10vh auto 10vh auto;
+    padding: 35px;
+    font-size: small;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"],input[type="email"],input[type="password"]
+{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 100%;  
+    margin-bottom: 5px;
+    padding: 5px;
+    
+} 
+textarea{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    width: 100%;  
+    margin-bottom: 5px;
+}
+
+input[type="submit"]{
+    background-color: blue;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+small{
+    margin: 5px;
+}
